@@ -35,8 +35,7 @@ html[data-font=SERIF] {
 }
 
 html[data-theme=BOOK] {
-  --background-color: rgba(233, 239, 249, 0.45);
-  --backdrop-filter: blur(40px);
+  --background-color: transparent !important;
   --text-color: var(--black);
   --btn-background-color: var(--primary-color);
   --btn-background-color-hover: var(--primary-color-brighter);
@@ -58,8 +57,7 @@ html[data-theme=BOOK] {
 }
 
 html[data-theme=CONSOLE] {
-  --background-color: rgba(233, 239, 249, 0.45);
-  --backdrop-filter: blur(40px);
+  --background-color: transparent !important;
   --text-color: var(--black);
   --btn-background-color: var(--primary-color);
   --btn-background-color-hover: var(--primary-color-brighter);
