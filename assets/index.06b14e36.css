@@ -27,11 +27,11 @@
 }
 
 html[data-font=SANS] {
-  --font-family: "Inter"
+  --font-family: "Roboto Sans"
 }
 
 html[data-font=SERIF] {
-  --font-family: "Inter"
+  --font-family: "Roboto Sans"
 }
 
 html[data-theme=BOOK] {
@@ -258,7 +258,7 @@ html[data-theme=CONSOLE] {
 }
 
 #runtime #title-card-btns {
-  width: 15rem;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -266,7 +266,8 @@ html[data-theme=CONSOLE] {
   background: #ffffff !important;
   display: flex;
   width: 100%;
-  font-size: 1.6rem;
+  font-size: 14px !important;
+  font-weight: 500 !important;
   border-bottom: none;
   margin-bottom: 0;
   border-radius: 0;
@@ -770,7 +771,7 @@ html[data-theme=CONSOLE] {
   color: var(--event-past-text-color)
 }
 
-@font-face {
+/* @font-face {
   font-family: Literata;
   src: url(../fonts/Literata.ttf)
 }
@@ -778,15 +779,21 @@ html[data-theme=CONSOLE] {
 @font-face {
   font-family: "Roboto Serif";
   src: url(../fonts/RobotoSerif.ttf)
-}
+} */
 
 @font-face {
-  font-family: Inter;
-  src: url(../fonts/Inter.ttf)
+  font-family: "Roboto Sans";
+  src: url('../fonts/Roboto.ttf')
 }
 
+
+/* @font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter.ttf)
+} */
+
 ::-webkit-scrollbar {
-  width: .4rem;
+  width: 0rem;
   height: 4.4rem
 }
 
